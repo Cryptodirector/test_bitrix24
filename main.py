@@ -4,7 +4,7 @@ from src.app.service import service
 
 
 async def main():
-    await service.get_info_user()
+    await service.insert_info()
 
 
 if __name__ == '__main__':
